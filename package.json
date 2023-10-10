@@ -1,6 +1,7 @@
 {
     "name": "f4-repeat-project1",
     "version": "0.1.0",
+    "homepage": "https://amit17214.github.io/f4-repeat-calculator",
     "homepage": "https://chiragmittal36269.github.io/f4-repeat-project1",
     "private": true,
     "dependencies": {
@@ -14,6 +15,8 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",
