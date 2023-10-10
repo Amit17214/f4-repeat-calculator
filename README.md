@@ -1,1 +1,1 @@
-Click to see https://github.com/facebook/create-react-app
+Click to see view - https://amit17214.github.io/f4-repeat-calculator/
